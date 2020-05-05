@@ -4,7 +4,7 @@ export class Articles extends Component {
     render() {
         return (
             <div>
-                Articles
+                <h1>Articles</h1>
             </div>
         )
     }

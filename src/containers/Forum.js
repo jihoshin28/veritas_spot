@@ -4,7 +4,7 @@ export class Forum extends Component {
     render() {
         return (
             <div>
-                Forum
+                <h1>Blog</h1>
             </div>
         )
     }

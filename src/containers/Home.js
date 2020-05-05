@@ -5,7 +5,7 @@ export class Home extends Component {
         console.log('Home')
         return (
             <div>
-                Home
+                <h1>Home</h1>
             </div>
         )
     }

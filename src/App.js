@@ -4,10 +4,10 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import Home from './containers/About'
-import Articles from './containers/About'
-import Forum from './containers/About'
-import Blog from './containers/About'
+import Home from './containers/Home'
+import Articles from './containers/Articles'
+import Forum from './containers/Forum'
+import Blog from './containers/Blog'
 import About from './containers/About'
 import './App.css';
 import NavBar from './components/NavBar'
@@ -27,6 +27,7 @@ function App() {
             <Route exact path ="/forum" render={(props) => <Forum {...props} />} />
             <Route exact path ="/blog" render={(props) => <Blog {...props} />} />
             <Route exact path ="/about" render={(props) => <About {...props} />} />
+            {/* <Route exact path="/todaypage" render = {(props) => <TodayPage {...props} currentUser = {this.state.currentUser}/>}/> */}
             </div>
           </Router>
           
