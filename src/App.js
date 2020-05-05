@@ -1,5 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
 import './App.css';
 
 function App() {
@@ -11,9 +15,13 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <p>
-            Hello
-          </p>
+          <header></header>
+          <Router>
+            <div className = "app">
+              <Route></Route>
+            </div>
+          </Router>
+          
         </div>
       </header>
     </div>
